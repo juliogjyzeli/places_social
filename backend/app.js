@@ -45,7 +45,7 @@ app.use((error, req, res, next) => {
 
 mongoose
   .connect(
-    `mongodb+srv://juliojs:12345@cluster2.vdyzg.mongodb.net/mern?retryWrites=true&w=majority`
+    `mongodb+srv://julio:123@cluster2.vdyzg.mongodb.net/mern?retryWrites=true&w=majority`
   )
   .then(() => {
     console.log("Connected to db");
